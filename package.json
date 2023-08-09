@@ -1,0 +1,23 @@
+{
+    "name": "Git-AI",
+    "version": "1.0.0",
+    "main": "index.ts",
+    "author": "Henrique Barucco <henrique_barucco@hotmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "load": "tsx src/loader.ts",
+        "search": "tsx src/search.ts",
+        "test": "tsx src/gpt.ts"
+    },
+    "devDependencies": {
+        "@types/node": "^20.4.9",
+        "tsx": "^3.12.7",
+        "typescript": "^5.1.6"
+    },
+    "dependencies": {
+        "dotenv": "^16.3.1",
+        "ignore": "^5.2.4",
+        "langchain": "^0.0.124",
+        "redis": "^4.6.7"
+    }
+}
